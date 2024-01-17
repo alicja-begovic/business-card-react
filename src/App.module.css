@@ -1,18 +1,86 @@
-body {
-    background-color: rgb(5, 5, 58);
-    /* color: white; */
+* *:after *:before {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.card {
-   width: 30rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: aliceblue;
+body {
+    min-height: 90vh;
+    display: flex;
+    background-color: brown;
+}
+
+.main {
+    background-color: rgb(250, 235, 215, 0.8);
+    
+}
+
+.main_img {
+display: flex;
+justify-content: center;
 }
 
 .img {
-    width: 8rem;
-    height: 8rem;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
+
+
+@media screen and (max-width: 730px) {
+ 
+}
+
+
+/* body {
+  background-color: rgb(5, 5, 58);
+  color: rgb(5, 5, 58);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh ;
+}
+
+.card {
+  width: 40rem;
+  height: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.5);
+  border-radius: 1rem 5rem 1rem 5rem;
+}
+
+.cardImage {
+    width: 300px;
+    height: 300px;
+    display:flex;
+    justify-content: flex-start;
+    margin: 1.5rem 1rem;
+} 
+
+.img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+}
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic {
+  margin: 1rem ;
+}
+
+.basicName {
+  font-size: 1.5rem;
+}
+
+.socialMedia {
+    text-align: right;
+} */
