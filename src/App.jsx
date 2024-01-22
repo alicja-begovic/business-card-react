@@ -10,7 +10,7 @@ function App() {
         </section>
         <section className={classes.person}>
           <h2 className={classes.basicName}>Alicja Begović</h2>
-          <h3>junior frontend developer</h3>
+          <h3><i>junior frontend developer</i></h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus sunt
             voluptatibus, nisi vitae dignissimos voluptates expedita fugiat.

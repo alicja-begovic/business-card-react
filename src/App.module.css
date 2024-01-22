@@ -50,6 +50,8 @@ body {
   }
   .spaceBetween {
     padding: 0 0.3rem;
+    text-decoration: none;
+    color: blue;
   }
 }
 
