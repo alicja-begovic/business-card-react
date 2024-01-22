@@ -17,9 +17,13 @@ function App() {
             Tempora facere aut autem dignissimos at dolorum culpa voluptate
             eaque, placeat perspiciatis amet.
           </p>
+          <div className={classes.test}>
           <p className={classes.socialMedia}>
-            My social media: LinkedIn, Facebook, github
+            <a className={classes.spaceBetween} href="https://www.linkedin.com/in/alicja-begovi%C4%87-472424232/">LinkedIn</a>
+            <a className={classes.spaceBetween} href="https://github.com/alicja-begovic" >GitHub</a>
+            
           </p>
+          </div>
         </section>
       </div>
     </>
