@@ -52,13 +52,13 @@ body {
 
 .test {
   margin: 0 0 0.5rem;
-  
+
 }
 
 .socialMedia {
   display: flex;
   align-content: space-between;
-  
+  margin: 1rem 0 1rem;
 }
 
 .person {
@@ -66,7 +66,7 @@ body {
 }
 
 .spaceBetween {
-  padding: 0 0 0.3rem;
+  padding: 0 0.5rem 0 0;
   text-decoration: none;
   color: black;
 }
@@ -80,7 +80,7 @@ body {
   }
 
   .img {
-    margin: 1rem 1rem 0.5rem 1rem;
+    margin: 1rem 1rem 0 1rem;
   }
   .person {
     margin: 0 1rem 0.3rem 1rem;
@@ -96,7 +96,7 @@ body {
     padding: 0.3rem;
   } */
   .spaceBetween {
-    padding: 0 0.3rem;
+    padding: 0 0.3rem 1rem;;
     text-decoration: none;
     color: black;
   }
