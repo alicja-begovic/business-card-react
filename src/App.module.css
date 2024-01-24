@@ -1,4 +1,6 @@
-* *:after *:before {
+*,
+*:after,
+*:before {
   margin: 0;
   box-sizing: border-box;
 }
@@ -8,15 +10,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(0,3,10);
-  background: linear-gradient(180deg, rgba(0,3,10,1) 43%, rgba(36,55,221,1) 100%);
+  background: rgb(0, 3, 10);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 3, 10, 1) 43%,
+    rgba(36, 55, 221, 1) 100%
+  );
   margin: 1rem;
+}
+
+.position {
+  margin: 0 0 1rem 0;
+}
+
+.basicName {
+  margin: 2rem 0 0.5rem;
 }
 
 .main {
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 1rem;
-  
+  border-radius: 1rem 5rem;
+  display: flex;
+  width: 30rem;
 }
 
 .main_img {
@@ -28,16 +43,48 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  margin: 1rem;
+}
+
+.description {
+  margin: 1rem 0;
+}
+
+.test {
+  margin: 0 0 0.5rem;
+  
+}
+
+.socialMedia {
+  display: flex;
+  align-content: space-between;
+  
+}
+
+.person {
+  margin: 0 1rem 0.3rem 1rem;
+}
+
+.spaceBetween {
+  padding: 0 0 0.3rem;
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 730px) {
+  .main {
+    display: block;
+    width: 90%;
+    margin: 1rem;
+    border-radius: 1rem;
+  }
+
   .img {
     margin: 1rem 1rem 0.5rem 1rem;
   }
   .person {
     margin: 0 1rem 0.3rem 1rem;
     text-align: center;
-    
   }
   .socialMedia {
     margin: 1rem 0 1rem;
@@ -45,13 +92,13 @@ body {
     align-content: space-between;
     justify-content: center;
   }
-  .test {
+  /* .test {
     padding: 0.3rem;
-  }
+  } */
   .spaceBetween {
     padding: 0 0.3rem;
     text-decoration: none;
-    color: blue;
+    color: black;
   }
 }
 
