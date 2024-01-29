@@ -14,10 +14,10 @@ function App() {
             <i>junior frontend developer</i>
           </h3>
           <p className={classes.description}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus sunt
-            voluptatibus, nisi vitae dignissimos voluptates expedita fugiat.
-            Tempora facere aut autem dignissimos at dolorum culpa voluptate
-            eaque, placeat perspiciatis amet.
+            Person with passion for learning programming and much more. My dream
+            position is software developer, but first I would like to master my
+            web development skills. Owner of 13200 jigsaw puzzle "Creation of
+            Adams".
           </p>
           <div className={classes.test}>
             <p className={classes.socialMedia}>
@@ -25,13 +25,13 @@ function App() {
                 className={classes.spaceBetween}
                 href="https://www.linkedin.com/in/alicja-begovi%C4%87-472424232/"
               >
-                LinkedIn
+                <strong>LinkedIn</strong>
               </a>
               <a
                 className={classes.spaceBetween}
                 href="https://github.com/alicja-begovic"
               >
-                GitHub
+                <strong>GitHub</strong>
               </a>
             </p>
           </div>
