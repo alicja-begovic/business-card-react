@@ -16,7 +16,6 @@ body {
     rgba(0, 3, 10, 1) 43%,
     rgba(36, 55, 221, 1) 100%
   );
-  margin: 1rem;
 }
 
 .position {
@@ -31,7 +30,7 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 1rem 5rem;
   display: flex;
-  width: 30rem;
+  width: 35rem;
 }
 
 .main_img {
@@ -52,7 +51,6 @@ body {
 
 .test {
   margin: 0 0 0.5rem;
-
 }
 
 .socialMedia {
@@ -92,66 +90,10 @@ body {
     align-content: space-between;
     justify-content: center;
   }
-  /* .test {
-    padding: 0.3rem;
-  } */
+
   .spaceBetween {
-    padding: 0 0.3rem 1rem;;
+    padding: 0 0.3rem 1rem;
     text-decoration: none;
     color: black;
   }
 }
-
-/* body {
-  background-color: rgb(5, 5, 58);
-  color: rgb(5, 5, 58);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh ;
-}
-
-.card {
-  width: 40rem;
-  height: 100% auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(240, 248, 255, 0.5);
-  border-radius: 1rem 5rem 1rem 5rem;
-}
-
-.cardImage {
-    width: 300px;
-    height: 300px;
-    display:flex;
-    justify-content: flex-start;
-    margin: 1.5rem 1rem;
-} 
-
-.img {
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1rem;
-}
-.div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.basic {
-  margin: 1rem ;
-}
-
-.basicName {
-  font-size: 1.5rem;
-}
-
-.socialMedia {
-    text-align: right;
-} */

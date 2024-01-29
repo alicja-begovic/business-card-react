@@ -4,7 +4,7 @@ import myPhoto from "./assets/myPhoto.jpg";
 function App() {
   return (
     <>
-      <div className={classes.main}>
+      <main className={classes.main}>
         <section className={classes.main_img}>
           <img className={classes.img} src={myPhoto} alt="My picture" />
         </section>
@@ -36,7 +36,7 @@ function App() {
             </p>
           </div>
         </section>
-      </div>
+      </main>
     </>
   );
 }
