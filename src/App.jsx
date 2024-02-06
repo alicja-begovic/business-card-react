@@ -14,10 +14,7 @@ function App() {
             <i>junior frontend developer</i>
           </h3>
           <p className={classes.description}>
-            Person with passion for learning programming and much more. My dream
-            position is software developer, but first I would like to master my
-            web development skills. Owner of 13200 jigsaw puzzle "Creation of
-            Adams".
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam et, maxime architecto tenetur culpa voluptas mollitia, facilis quidem eum nobis repellat libero voluptatibus, esse aspernatur labore! Iste quaerat at non!
           </p>
           <div className={classes.test}>
             <p className={classes.socialMedia}>

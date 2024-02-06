@@ -18,21 +18,21 @@ body {
   );
 }
 
-.position {
-  margin: 0 0 1rem 0;
-  color:rgb(14, 19, 63);
-}
-
-.basicName {
-  margin: 2rem 0 0.5rem;
-  color:rgb(14, 19, 63)
-}
-
 .main {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 1rem 5rem;
   display: flex;
   width: 35rem;
+}
+
+.position {
+  margin: 0 0 1rem 0;
+  color: rgb(14, 19, 63);
+}
+
+.basicName {
+  margin: 2rem 0 0.5rem;
+  color: rgb(14, 19, 63);
 }
 
 .main_img {
@@ -59,7 +59,6 @@ body {
   display: flex;
   align-content: space-between;
   margin: 1rem 0 1rem;
-  
 }
 
 .person {
@@ -69,7 +68,7 @@ body {
 .spaceBetween {
   padding: 0 0.5rem 0 0;
   text-decoration: none;
-  color:rgb(14, 19, 63);
+  color: rgb(14, 19, 63);
 }
 
 @media screen and (max-width: 730px) {
