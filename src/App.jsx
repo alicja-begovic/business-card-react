@@ -16,7 +16,7 @@ function App() {
           <p className={classes.description}>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam et, maxime architecto tenetur culpa voluptas mollitia, facilis quidem eum nobis repellat libero voluptatibus, esse aspernatur labore! Iste quaerat at non!
           </p>
-          <div className={classes.test}>
+          <div className={classes.social}>
             <p className={classes.socialMedia}>
               <a
                 className={classes.spaceBetween}
