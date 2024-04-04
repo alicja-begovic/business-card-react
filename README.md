@@ -2,8 +2,8 @@
 
 # Business Card
 
-Simple project of my personal business card with using React.
+A simple project of my business card using React.
 
 ## Info
 
-Download project and then in console run "npm install", then "npm run dev".
+Download the project and then in the console run "npm install", then "npm run dev".
