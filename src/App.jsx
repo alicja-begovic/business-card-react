@@ -14,7 +14,7 @@ function App() {
             <i>junior frontend developer</i>
           </h3>
           <p className={classes.description}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam et, maxime architecto tenetur culpa voluptas mollitia, facilis quidem eum nobis repellat libero voluptatibus, esse aspernatur labore! Iste quaerat at non!
+          Driven by the pursuit of growth and transformation, I have turned my hobby into a career. With passion for challenges, I continuously push boundaries to refine my skills. I am on a journey to become a full-stack developer, blending creativity with technical expertise. Owner of 13200 pcs jigsaw puzzles Creation of Adam.
           </p>
           <div className={classes.social}>
             <p className={classes.socialMedia}>

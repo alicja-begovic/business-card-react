@@ -10,19 +10,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(0, 3, 10);
+  background: rgb(91, 122, 167);
   background: linear-gradient(
     180deg,
-    rgba(0, 3, 10, 1) 43%,
-    rgba(36, 55, 221, 1) 100%
+    rgba(91, 122, 167, 1) 43%,
+    rgb(64, 77, 194) 100%
   );
+  color: #c6bfbf;
 }
 
 .main {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(134, 133, 133, 0.3);
   border-radius: 1rem 5rem;
   display: flex;
   width: 35rem;
+  box-shadow: 8px 8px 8px rgba(255, 255, 255, 0.4);
 }
 
 .main_img {
@@ -43,12 +45,12 @@ body {
 
 .basicName {
   margin: 2rem 0 0.5rem;
-  color: rgb(14, 19, 63);
+  /* color: rgb(14, 19, 63); */
 }
 
 .position {
   margin: 0 0 1rem 0;
-  color: rgb(14, 19, 63);
+  color: rgb(155, 155, 155);
 }
 
 .description {
@@ -68,7 +70,11 @@ body {
 .spaceBetween {
   padding: 0 0.5rem 0 0;
   text-decoration: none;
-  color: rgb(14, 19, 63);
+  color: rgb(155, 155, 155);
+}
+
+.img {
+  margin: 2rem 1rem 0 1rem;
 }
 
 @media screen and (max-width: 730px) {
