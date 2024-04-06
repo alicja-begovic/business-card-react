@@ -20,7 +20,7 @@ body {
 }
 
 .main {
-  background-color: rgba(134, 133, 133, 0.3);
+  background-color: rgba(134, 133, 133, 0.2);
   border-radius: 1rem 5rem;
   display: flex;
   width: 35rem;
@@ -70,7 +70,7 @@ body {
 .spaceBetween {
   padding: 0 0.5rem 0 0;
   text-decoration: none;
-  color: rgb(155, 155, 155);
+  color: #c6bfbf;
 }
 
 .img {
@@ -102,6 +102,5 @@ body {
   .spaceBetween {
     padding: 0 0.3rem 1rem;
     text-decoration: none;
-    color: black;
   }
 }
